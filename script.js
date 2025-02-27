@@ -680,8 +680,8 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
         `;
     } else { // 平装版本
         html += `
-            <p>计算公式：${postProcessingRate} × ${copies}册}</p>
-            <p>= ${postProcessingRate} × ${copies}} = ¥${postProcessingCost.toFixed(2)}</p>
+            <p>计算公式：${postProcessingRate} × ${copies}册</p>
+            <p>= ${postProcessingRate} × ${copies} = ¥${postProcessingCost.toFixed(2)}</p>
         `;
     }
 
