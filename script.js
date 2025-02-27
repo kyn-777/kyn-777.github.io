@@ -142,26 +142,26 @@ function calculateInternalPrinting(bookSpec, pageCount, copies) {
         case '16pb': // 16开平装黑白
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.05 * (pageCount / 2) * copies;
-                postProcessingCost = 2 * copies + 300;
+                postProcessingCost = 2 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.046 * (pageCount / 2) * copies;
-                postProcessingCost = 1.8 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.042 * (pageCount / 2) * copies;
-                postProcessingCost = 1.6 * copies + 300;
+                postProcessingCost = 1.6 * copies;
             }
             break;
             
         case '16pc': // 16开平装四色
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.12 * (pageCount / 2) * copies;
-                postProcessingCost = 2 * copies + 300;
+                postProcessingCost = 2 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.1 * (pageCount / 2) * copies;
-                postProcessingCost = 1.8 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.08 * (pageCount / 2) * copies;
-                postProcessingCost = 1.6 * copies + 300;
+                postProcessingCost = 1.6 * copies;
             }
             break;
             
@@ -194,26 +194,26 @@ function calculateInternalPrinting(bookSpec, pageCount, copies) {
         case '32pb': // 32开平装黑白
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.042 * (pageCount / 2) * copies;
-                postProcessingCost = 1.7 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.032 * (pageCount / 2) * copies;
-                postProcessingCost = 1.4 * copies + 300;
+                postProcessingCost = 1.4 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.028 * (pageCount / 2) * copies;
-                postProcessingCost = 1.2 * copies + 300;
+                postProcessingCost = 1.2 * copies;
             }
             break;
             
         case '32pc': // 32开平装四色
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.09 * (pageCount / 2) * copies;
-                postProcessingCost = 1.7 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.066 * (pageCount / 2) * copies;
-                postProcessingCost = 1.4 * copies + 300;
+                postProcessingCost = 1.4 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.006 * (pageCount / 2) * copies;
-                postProcessingCost = 1.2 * copies + 300;
+                postProcessingCost = 1.2 * copies;
             }
             break;
             
@@ -403,26 +403,26 @@ function calculateCostsForCopies(bookSpec, pageCount, copies, callback) {
         case '16pb': // 16开平装黑白
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.05 * (pageCount / 2) * copies;
-                postProcessingCost = 2 * copies + 300;
+                postProcessingCost = 2 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.046 * (pageCount / 2) * copies;
-                postProcessingCost = 1.8 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.042 * (pageCount / 2) * copies;
-                postProcessingCost = 1.6 * copies + 300;
+                postProcessingCost = 1.6 * copies;
             }
             break;
             
         case '16pc': // 16开平装四色
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.12 * (pageCount / 2) * copies;
-                postProcessingCost = 2 * copies + 300;
+                postProcessingCost = 2 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.1 * (pageCount / 2) * copies;
-                postProcessingCost = 1.8 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.08 * (pageCount / 2) * copies;
-                postProcessingCost = 1.6 * copies + 300;
+                postProcessingCost = 1.6 * copies;
             }
             break;
             
@@ -455,26 +455,26 @@ function calculateCostsForCopies(bookSpec, pageCount, copies, callback) {
         case '32pb': // 32开平装黑白
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.042 * (pageCount / 2) * copies;
-                postProcessingCost = 1.7 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.032 * (pageCount / 2) * copies;
-                postProcessingCost = 1.4 * copies + 300;
+                postProcessingCost = 1.4 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.028 * (pageCount / 2) * copies;
-                postProcessingCost = 1.2 * copies + 300;
+                postProcessingCost = 1.2 * copies;
             }
             break;
             
         case '32pc': // 32开平装四色
             if (copies >= 100 && copies <= 499) {
                 printingCost = 0.09 * (pageCount / 2) * copies;
-                postProcessingCost = 1.7 * copies + 300;
+                postProcessingCost = 1.7 * copies;
             } else if (copies >= 500 && copies <= 999) {
                 printingCost = 0.066 * (pageCount / 2) * copies;
-                postProcessingCost = 1.4 * copies + 300;
+                postProcessingCost = 1.4 * copies;
             } else if (copies >= 1000) {
                 printingCost = 0.006 * (pageCount / 2) * copies;
-                postProcessingCost = 1.2 * copies + 300;
+                postProcessingCost = 1.2 * copies;
             }
             break;
             
@@ -541,18 +541,16 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
     };
 
     // 获取印制单价和后期处理单价
-    let printingRate, postProcessingRate, postProcessingBase;
+    let printingRate, postProcessingRate;
     if (copies >= 100 && copies <= 499) {
         switch(bookSpec) {
             case '16pb': 
                 printingRate = '0.05';
                 postProcessingRate = '2';
-                postProcessingBase = '300';
                 break;
             case '16pc': 
                 printingRate = '0.12';
                 postProcessingRate = '2';
-                postProcessingBase = '300';
                 break;
             case '16hb': 
                 printingRate = '0.05';
@@ -567,12 +565,10 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
             case '32pb': 
                 printingRate = '0.042';
                 postProcessingRate = '1.7';
-                postProcessingBase = '300';
                 break;
             case '32pc': 
                 printingRate = '0.09';
                 postProcessingRate = '1.7';
-                postProcessingBase = '300';
                 break;
             case '32hb': 
                 printingRate = '0.042';
@@ -589,13 +585,11 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
         switch(bookSpec) {
             case '16pb': 
                 printingRate = '0.046';
-                postProcessingRate = '1.8';
-                postProcessingBase = '300';
+                postProcessingRate = '1.7';
                 break;
             case '16pc': 
                 printingRate = '0.1';
-                postProcessingRate = '1.8';
-                postProcessingBase = '300';
+                postProcessingRate = '1.7';
                 break;
             case '16hb': 
                 printingRate = '0.046';
@@ -610,12 +604,10 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
             case '32pb': 
                 printingRate = '0.032';
                 postProcessingRate = '1.4';
-                postProcessingBase = '300';
                 break;
             case '32pc': 
                 printingRate = '0.066';
                 postProcessingRate = '1.4';
-                postProcessingBase = '300';
                 break;
             case '32hb': 
                 printingRate = '0.032';
@@ -633,12 +625,10 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
             case '16pb': 
                 printingRate = '0.042';
                 postProcessingRate = '1.6';
-                postProcessingBase = '300';
                 break;
             case '16pc': 
                 printingRate = '0.08';
                 postProcessingRate = '1.6';
-                postProcessingBase = '300';
                 break;
             case '16hb': 
                 printingRate = '0.042';
@@ -653,12 +643,10 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
             case '32pb': 
                 printingRate = '0.028';
                 postProcessingRate = '1.2';
-                postProcessingBase = '300';
                 break;
             case '32pc': 
                 printingRate = '0.006';
                 postProcessingRate = '1.2';
-                postProcessingBase = '300';
                 break;
             case '32hb': 
                 printingRate = '0.028';
@@ -692,8 +680,8 @@ function displayResults(printingCost, postProcessingCost, bindingCost) {
         `;
     } else { // 平装版本
         html += `
-            <p>计算公式：${postProcessingRate} × ${copies}册 + ${postProcessingBase}</p>
-            <p>= ${postProcessingRate} × ${copies} + ${postProcessingBase} = ¥${postProcessingCost.toFixed(2)}</p>
+            <p>计算公式：${postProcessingRate} × ${copies}册}</p>
+            <p>= ${postProcessingRate} × ${copies}} = ¥${postProcessingCost.toFixed(2)}</p>
         `;
     }
 
